@@ -1,0 +1,115 @@
+body{
+    text-align:center;
+    font-family: 'Kiwi Maru', serif;
+    background: rgb(255,199,101);
+background: radial-gradient(circle, rgba(255,199,101,1) 0%, rgba(255,111,111,1) 100%);
+}
+#container{
+    color: rgb(66, 66, 66);
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px 10px 20px 10px;
+    padding-left: 10px;
+    flex-flow: column;
+    
+
+}
+
+
+ 
+#header{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    text-align: center;
+    width: auto;
+    margin: 5px;
+    height: 50px;
+    
+   
+}
+#header span{
+    font-size: 12px;
+    
+}
+
+#container button{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    width: 210px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0,255,226);
+    background: radial-gradient(circle, rgba(0,255,226,1) 0%, rgba(7,0,255,1) 100%);
+}
+
+#container button:hover{
+    cursor: pointer;
+}
+#container button i{
+    float: right;
+    margin: 5px;
+}
+
+#container button:hover{
+background: rgb(0,255,226);
+    background: radial-gradient(circle, rgb(0, 219, 194) 0%, rgb(7, 0, 221) 100%);
+
+}
+#container input{
+    background-color: rgb(238, 238, 238);
+    border: none;
+margin-top: 10px;
+    padding: 5px;
+    height: 20px;
+    outline: none;
+    
+}
+#container input:focus{
+    border: none;  
+    background-color: rgb(255, 255, 255); 
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(238, 238, 238,1);
+-moz-box-shadow: 0px 0px 20px 4px rgba(238, 238, 238,1);
+box-shadow: 0px 0px 20px 4px rgba(238, 238, 238,1);
+}
+#kullanıcı-adi{
+    border-radius: 10px;
+    height: 15px;
+    width: 200px;
+}
+#email{
+    border-radius: 10px;
+    height: 15px;
+    width: 200px;
+}
+
+
+#first_name{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    width: 91px;
+    height: 15px;
+    margin-right: 3px;
+
+}
+#last_name{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+
+    width: 91px;
+    height: 15px;
+}
+#container small{
+ font-size: 10px;
+ 
+}
+#container small{
+    text-decoration: none;
+}
